@@ -1,0 +1,6 @@
+{
+  "name": "Community Hero",
+  "description": "A civic issue reporting application that classifies issues and tags departments using Gemini.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

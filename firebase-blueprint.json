@@ -1,0 +1,43 @@
+{
+  "collections": {
+    "reports": {
+      "schema": {
+        "id": "string",
+        "photo": "string",
+        "lat": "number",
+        "lng": "number",
+        "category": "string",
+        "severity": "string",
+        "description": "string",
+        "department": "string",
+        "status": "string",
+        "timestamp": "string",
+        "upvotes": "number",
+        "activeConfirms": "number",
+        "resolvedConfirms": "number",
+        "communityResolved": "boolean",
+        "createdAt": "string",
+        "history": "array",
+        "escalated": "boolean",
+        "escalationNote": "string",
+        "escalatedAt": "string"
+      },
+      "rules": {
+        "read": "true",
+        "write": "true"
+      }
+    },
+    "users": {
+      "schema": {
+        "id": "string",
+        "points": "number",
+        "displayName": "string",
+        "avatarUrl": "string"
+      },
+      "rules": {
+        "read": "true",
+        "write": "true"
+      }
+    }
+  }
+}
